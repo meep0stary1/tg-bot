@@ -3,7 +3,7 @@ import random
 
 from aiogram import Bot, Dispatcher, types
 
-TOKEN = "8581238884:AAGvWPpa1yf19JTMLCsQpJC717B2z6yL17g"
+TOKEN = "BOT_TOKEN"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -508,4 +508,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
+
         print("!!! БОТ ОСТАНОВЛЕН !!!")
